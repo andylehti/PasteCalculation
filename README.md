@@ -1,6 +1,8 @@
 # PasteCalc
 PasteCalc is a personal utility for Python environments that allows you to calculate values by pasting them into a string array. This utility is not meant to be called as a script as it does not have meaningful input options.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andylehti/PasteCalculation/blob/main/PasteCalc.ipynb)
+
 ## Getting Started
 
 To use this script, follow the instructions below:
