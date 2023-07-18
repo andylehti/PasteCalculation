@@ -116,6 +116,24 @@ else:
     raise ValueError("Invalid output option. Please choose between 0, 1, 2, and 3.")
 ```
 
-## License
+## Output Options:
+```bash
+---  (X, True, True, True) 
+A number indicating the style of the output:
+-1 = full rounded down outputs,
+ 0 = partial scientific (displays 10 digits),
+ 1 = full rounded up outputs,
+ 2 = full output, no scientific notation, as many decimals as dps + precision are set to,
+ 3 = partial truncated (truncates all but 100 digits).
 
-This project is licensed under the [MIT License](LICENSE).
+--- (0, X, True, True) 
+A boolean indicating whether the result should be saved to a file.
+
+--- (0, True, X, True) 
+A boolean indicating whether the result of each iteration should be
+printed or saved to a file (based on the value of the second boolean
+in the tuple).
+
+--- (0, True, True, X) 
+A boolean if set to True will show the equation
+```
